@@ -1,5 +1,7 @@
 # chrysalis-router
 
+[![Build Status](https://travis-ci.org/idchlife/chrysalis-router.svg?branch=master)](https://travis-ci.org/idchlife/chrysalis-router)
+
 Chrysalis router is a simple router that just "finds route, gives you something you attached to it".
 It can be anything with the type provided. String, Int, block, whatewer you want.
 
