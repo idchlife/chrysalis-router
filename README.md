@@ -30,6 +30,10 @@ manager = RoutesManager(YourType).new
 # Add route with attachment to it
 manager.add_route "/fleeb", YourType
 
+# You can also add types with :variables
+# This route will be found with "/fleeb/56/plumbus" or "/fleeb/juice/plumbus"
+manager.add_route "/fleeb/:id/plumbus", YourType
+
 # Then get attachment when you got path. Mind rescuing exception! Router
 # raises an exception if no route found! It was made like this so you can
 # make that nil can be also an attachment
