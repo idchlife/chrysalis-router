@@ -1,0 +1,1 @@
+./sentry -r "crystal" --run-args "spec --debug" -w "./src/**/*.cr" -w "./spec/**/*.cr"

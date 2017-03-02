@@ -1,0 +1,9 @@
+name: chrysalis-router
+version: 0.1.0
+
+authors:
+  - idchlife <idchlife@gmail.com>
+
+crystal: 0.20.4
+
+license: MIT
