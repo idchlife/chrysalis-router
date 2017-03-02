@@ -45,6 +45,9 @@ begin
 rescue RouteNotFoundException
   raise "Whoops 404 guys"
 end
+
+# You can also debug structure of tree of routes by doing this
+puts manager.debug_tree_structure
 ```
 
 Note: trailing slashes are not seekable. Only paths without them will be found
